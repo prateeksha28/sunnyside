@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: url(images/desktop/image-header.jpg);
+    height: 750px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-size: 18px;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8rem;
+    padding: 0 4rem;
+    margin-bottom: 60px;
+}
+
+.logo {
+    height: 1.5rem;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+}
+
+.nav-option {
+    text-decoration: none;
+    font-family: 'barlow';
+    letter-spacing: -0.8px;
+    font-weight: normal;
+    color: white;
+}
+
+.nav-cta {
+    padding: 1rem 2rem;
+    border-radius: 60px;
+    color: black;
+    background-color: white;
+    font-family: 'fraunces';
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.first-heading {
+    text-align: center;
+    font-family: 'fraunces';
+    font-weight: 600;
+    color: white;
+    letter-spacing: 7px;
+}
+
+.down-arrow {
+    margin-top: 100px;
+    position: absolute;
+    left: 49%;
+}
+
+/* 6 GRIDS */
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-bottom: 70px;
+
+}
+
+.graphic-photography {
+    position: relative;
+}
+
+.text-griditem {
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 1.7;
+}
+
+.subheading-bg-img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+.child-desc {
+    position: absolute;
+    top: 65%;
+    padding-left: 22%;
+    padding-right: 22%;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.subheading {
+    margin-bottom: 25px;
+    font-family: 'fraunces';
+    font-weight: 900;
+}
+
+.subheading-text {
+    margin-bottom: 25px;
+    font-family: 'barlow';
+    font-size: 16px;
+    color: hsl(232, 10%, 55%);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.cta--part {
+    font-family: 'fraunces';
+    font-size: 16px;
+}
+
+.subheading-cta1 {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #f7f7b7;
+    text-decoration-thickness: 5px;
+}
+
+.subheading-cta2 {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #f3d8e5;
+    text-decoration-thickness: 5px;
+}
+
+.graphic--title {
+    color: hsl(167, 40%, 24%);
+}
+
+.graphic--text {
+    color: hsl(168, 34%, 41%);
+}
+
+.photography--title {
+    color: hsl(198, 62%, 26%);
+}
+
+.photography--text {
+    color: hsl(198, 62%, 26%);
+}
+
+/* TESTMONIALS */
+.testimonial-container {
+    margin-bottom: 70px;
+}
+
+.testimonial-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'fraunces';
+    font-size: 18px;
+    color: hsl(210, 4%, 67%);
+    letter-spacing: 7px;
+}
+
+.testimonial-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    padding: 0px 20px;
+}
+
+.testimonial-img {
+    border-radius: 50%;
+    width: 64px;
+    position: center;
+    margin-bottom: 30px;
+}
+
+.testimonial-desc {
+    margin-bottom: 30px;
+    font-family: 'barlow';
+    line-height: 1.7;
+    color: hsl(213, 9%, 39%);
+}
+
+.testimonial-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: 'fraunces';
+    color: hsl(212, 27%, 19%);
+}
+
+.testimonial-designation {
+    font-size: 15px;
+    font-family: 'barlow';
+    color: hsl(210, 4%, 67%);
+}
+
+/* 4 PICS flex */
+.flex-pics {
+    display: flex;
+}
+
+.flex-img {
+    /* fits all 4 images in one flex grid */
+    width: 25%;
+}
+
+/* FOOTER */
+.footer-container {
+    background-color: #95d0c5;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.footer-logo {
+    filter: invert(68%) sepia(8%) saturate(5754%) hue-rotate(126deg) brightness(100%) contrast(91%);
+    margin-bottom: 20px;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: 'barlow';
+    color: #218c7b;
+    font-size: 15px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
